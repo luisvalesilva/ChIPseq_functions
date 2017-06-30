@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --mem=10MB
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=tem298@nyu.edu
+#SBATCH --mail-user=lv38@nyu.edu
 #SBATCH --time=5:00
 #SBATCH --job-name=ChIPseq_Pipeline_prince
 
