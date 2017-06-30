@@ -4,7 +4,7 @@
 #SBATCH --mem=10MB
 #SBATCH --time=5:00
 #SBATCH --mail-type=END
-#SBATCH --mail-user=tem298@nyu.edu
+#SBATCH --mail-user=lv38@nyu.edu
 #SBATCH --job-name=closing_ChIPseq
 #SBATCH --output=/scratch/%u/%x_%j.out
 
