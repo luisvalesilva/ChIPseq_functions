@@ -6,7 +6,7 @@
 #SBATCH --time=0:30:00
 #SBATCH --job-name=Bowtie
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=tem298@nyu.edu
+#SBATCH --mail-user=lv38@nyu.edu
 #SBATCH --output=/scratch/%u/%x_%j.out
 
 module purge
