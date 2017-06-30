@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --verbose
 #SBATCH --nodes=1
-#SBATCH --mem=7GB
+#SBATCH --mem=20GB
 #SBATCH --time=1:00:00
 #SBATCH --job-name=MACS2_FE
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=tem298@nyu.edu
+#SBATCH --mail-user=lv38@nyu.edu
 #SBATCH --output=/scratch/%u/%x_%j.out
 
 ### 6GB sam files need 7GB RAM
